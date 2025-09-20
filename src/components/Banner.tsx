@@ -2,10 +2,10 @@ import React from 'react';
 import '/src/css/Banner.css';
 
 //Simple Case: Attribute Name -> Attribute Name + Type
-const Banner = ({ imageUrl }: { imageUrl: string}) => {
+const Banner = ({ imageUrl, altText }: { imageUrl: string, altText: string}) => {
     return (
         <>
-            <img className="bannerImage" src={imageUrl}/>
+            <img className="bannerImage" src={imageUrl} alt={altText}/>
         </>
     );
 }

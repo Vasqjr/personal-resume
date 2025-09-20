@@ -3,6 +3,34 @@
   width: 100%;
 }
 
+#aboutSection, #workExperienceSection {
+  margin: 3vw;
+}
+
 .elevatorParagraph {
     padding: 0 10vw;
 }
+
+.square-container {
+  width: 22.5rem;
+  height: 22.5rem;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.square-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.leftSideImage {
+  float: left;
+  width: 25rem;
+}
+
+.smallIndent {
+  margin: 1vw;
+}
+
+
