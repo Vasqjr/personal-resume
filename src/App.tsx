@@ -14,8 +14,8 @@ function App() {
     { date: 'Fall 2020', title: 'Starting in Computer Engineering', description: 'Started my first program in the prime of the pandemic. Switched into Computer Science when I took a single coding class in CE.', position: 'left', image: `${farmingdaleStateCollegeImage}`},
     { date: 'Spring 2022', title: 'Moving to Computer Science', description: 'Started my Computer Science program. Met my greatest study group and my current roommate, with whom I took many major classes with.', position: 'right', image: `${moesProjectImage}`},
     { date: 'Spring 2023 - Summer 2024', title: 'Interning for Lincoln IT', description: 'Earned my first job in the field working as an intern for Lincoln IT, before being promoted to a Network Operations Center Engineer.', position: 'left', image: `${lincolnImage}`},
-    { date: 'Spring 2024', title: 'Graduation', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`},
-    { date: 'Fall 2024 - Present', title: 'Coding for the state', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY', position: 'left', image: `${stateOfNewYorkImage}`}
+    { date: 'Spring 2024', title: 'Graduating from SUNY Farmingdale', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`},
+    { date: 'Fall 2024 - Present', title: 'Coding for New York State', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY', position: 'left', image: `${stateOfNewYorkImage}`}
   ]
 
   return (
@@ -43,18 +43,6 @@ function App() {
       <div id="workExperienceSection">
         <h2>Education & Work Experience</h2>
         <Timeline items={timelineData} />
-        {/* <div className='smallIndent'>
-          <h3>Bachelor of Science in Computer Science at SUNY Farmingdale</h3>
-          <div className="leftSideImage">
-            <img className="square-container" src='src/assets/images/college-grad.jpeg' alt="Photo of Jonathan with College Graduate Friends" />
-          </div>
-          <div>
-            <h4>2020-2024</h4>
-            <p>
-                
-            </p>
-          </div>
-        </div> */}
       </div>
     </>
   )
