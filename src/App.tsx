@@ -1,9 +1,22 @@
 import React from 'react';
 import Banner from './components/Banner.tsx';
 import bannerImage from '/src/assets/images/IMG_3541.jpeg';
+import Timeline from './components/Timeline.tsx';
+import collegeGradImage from '/src/assets/images/college-grad.jpeg';
+import farmingdaleStateCollegeImage from '/src/assets/images/farmingdale-fountain.jpg';
+import moesProjectImage from '/src/assets/images/moesProject.jpeg'
+import lincolnImage from '/src/assets/images/lincolnIT.jpg';
+import stateOfNewYorkImage from '/src/assets/images/StateOfNY.png'
 import './App.css';
 
 function App() {
+  const timelineData = [
+    { date: 'Fall 2020', title: 'Starting in Computer Engineering', description: 'Started my first program in the prime of the pandemic. Switched into Computer Science when I took a single coding class in CE.', position: 'left', image: `${farmingdaleStateCollegeImage}`},
+    { date: 'Spring 2022', title: 'Moving to Computer Science', description: 'Started my Computer Science program. Met my greatest study group and my current roommate, with whom I took many major classes with.', position: 'right', image: `${moesProjectImage}`},
+    { date: 'Spring 2023 - Summer 2024', title: 'Interning for Lincoln IT', description: 'Earned my first job in the field working as an intern for Lincoln IT, before being promoted to a Network Operations Center Engineer.', position: 'left', image: `${lincolnImage}`},
+    { date: 'Spring 2024', title: 'Graduation', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`},
+    { date: 'Fall 2024 - Present', title: 'Coding for the state', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY', position: 'left', image: `${stateOfNewYorkImage}`}
+  ]
 
   return (
     <>
@@ -29,8 +42,8 @@ function App() {
 
       <div id="workExperienceSection">
         <h2>Education & Work Experience</h2>
-
-        <div className='smallIndent'>
+        <Timeline items={timelineData} />
+        {/* <div className='smallIndent'>
           <h3>Bachelor of Science in Computer Science at SUNY Farmingdale</h3>
           <div className="leftSideImage">
             <img className="square-container" src='src/assets/images/college-grad.jpeg' alt="Photo of Jonathan with College Graduate Friends" />
@@ -41,7 +54,7 @@ function App() {
                 
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
