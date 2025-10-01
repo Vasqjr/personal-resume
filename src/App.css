@@ -35,4 +35,8 @@
   margin: 1vw;
 }
 
-
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+}
