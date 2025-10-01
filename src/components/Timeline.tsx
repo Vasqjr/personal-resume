@@ -8,9 +8,10 @@ interface TimelineItemProps {
     description: string;
     position?: 'left' | 'right'; // '|' is the union operator
     image: string;
+    altText: string;
 }
 
-const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, position = 'left', image }) => {
+const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, position = 'left', image, altText }) => {
     return (
         <div className={`timeline-item ${position}`}>
             <div className="timeline-content">
@@ -18,7 +19,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, p
                 <h3 className="timeline-title">{title}</h3>
                 <p className="timeline-description">{description}</p>
             </div>
-            <img className={'square-container'} src={`${image}`} title="Timeline Image"/>
+            <img className={'square-container'} src={`${image}`} title={`${altText}`}/>
         </div>
     );
 };
