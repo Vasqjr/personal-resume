@@ -11,11 +11,11 @@ import './App.css';
 
 function App() {
   const timelineData = [
-    { date: 'Fall 2020', title: 'Starting in Computer Engineering', description: 'Started my first program in the prime of the pandemic. Switched into Computer Science when I took a single coding class in CE.', position: 'left', image: `${farmingdaleStateCollegeImage}`},
-    { date: 'Spring 2022', title: 'Moving to Computer Science', description: 'Started my Computer Science program. Met my greatest study group and my current roommate, with whom I took many major classes with.', position: 'right', image: `${moesProjectImage}`},
-    { date: 'Spring 2023 - Summer 2024', title: 'Interning for Lincoln IT', description: 'Earned my first job in the field working as an intern for Lincoln IT, before being promoted to a Network Operations Center Engineer.', position: 'left', image: `${lincolnImage}`},
-    { date: 'Spring 2024', title: 'Graduating from SUNY Farmingdale', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`},
-    { date: 'Fall 2024 - Present', title: 'Coding for New York State', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY', position: 'left', image: `${stateOfNewYorkImage}`}
+    { date: 'Fall 2020', title: 'Starting in Computer Engineering', description: 'Started my first program in the prime of the pandemic. Switched into Computer Science when I took a single coding class in CE.', position: 'left', image: `${farmingdaleStateCollegeImage}`, altText: 'Photo of Farmingdale State College Campus'},
+    { date: 'Spring 2022', title: 'Moving to Computer Science', description: 'Started my Computer Science program. Met my greatest study group and my current roommate, with whom I took many major classes with.', position: 'right', image: `${moesProjectImage}`, altText: 'Photo of College Group Studying at Moes'},
+    { date: 'Spring 2023 - Summer 2024', title: 'Interning for Lincoln IT', description: 'Earned my first job in the field working as an intern for Lincoln IT, before being promoted to a Network Operations Center Engineer.', position: 'left', image: `${lincolnImage}`, altText: 'Photo of Lincoln IT logo'},
+    { date: 'Spring 2024', title: 'Graduating from SUNY Farmingdale', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`, altText: 'Photo of College Graduation'},
+    { date: 'Fall 2024 - Present', title: 'Coding for New York State', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY', position: 'left', image: `${stateOfNewYorkImage}`, altText: 'Photo of New York State logo'}
   ]
 
   return (
@@ -36,6 +36,7 @@ function App() {
         <h2>
           About Me
         </h2>
+        <img title={`Jonathan's Linked-In Profile`} className='circle-container' src='src/assets/images/Linked-In-Profile.jpeg'/>
         <p className='smallIndent'>
           I’m happiest when I finish the day having accomplished something. Whether it’s refining this website, recording for my YouTube channel, practicing piano, or getting a gym session in, I like to end each day a little better than I started. Relaxation has its place, but steady progress—one day at a time—is what matters most to me.</p>
       </div>
