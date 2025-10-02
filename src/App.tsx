@@ -33,12 +33,15 @@ function App() {
         </p>
       </div>
       <div id="aboutSection">
+        <img title={`Jonathan's Linked-In Profile`} className='circle-container' src='src/assets/images/Linked-In-Profile.jpeg'/>
+        <div className='aboutContent'>
         <h2>
           About Me
         </h2>
-        <img title={`Jonathan's Linked-In Profile`} className='circle-container' src='src/assets/images/Linked-In-Profile.jpeg'/>
         <p className='smallIndent'>
-          I’m happiest when I finish the day having accomplished something. Whether it’s refining this website, recording for my YouTube channel, practicing piano, or getting a gym session in, I like to end each day a little better than I started. Relaxation has its place, but steady progress—one day at a time—is what matters most to me.</p>
+          I’m happiest when I finish the day having accomplished something. Whether it’s refining this website, recording for my YouTube channel, practicing piano, or getting a gym session in, I like to end each day a little better than I started. Relaxation has its place, but steady progress—one day at a time—is what matters most to me.
+        </p>
+      </div>
       </div>
 
       <div id="workExperienceSection">
