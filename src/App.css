@@ -4,11 +4,11 @@
 }
 
 #aboutSection, #workExperienceSection {
-  margin: 3rem;
+  width: 100rem;
 }
 
-.elevatorParagraph {
-    padding: 0 10vw;
+.elevatorParagraph{
+  margin: 1rem;
 }
 
 .square-container {
@@ -44,10 +44,6 @@
 .leftSideImage {
   float: left;
   width: 25rem;
-}
-
-.smallIndent {
-  margin: 1vw;
 }
 
 .aboutContent {
