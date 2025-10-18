@@ -1,10 +1,18 @@
 #headerContent {
   text-align: center;
-  width: 100%;
+  width: 100vw;
 }
 
 #aboutSection, #workExperienceSection {
-  width: 100rem;
+  width: 100vw;
+}
+
+#aboutSection h2, #aboutSection p {
+  padding: 0 2vw;
+}
+
+#workExperienceSection {
+  padding: 0 2vw;
 }
 
 .elevatorParagraph{

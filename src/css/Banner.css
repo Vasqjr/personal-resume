@@ -1,5 +1,5 @@
 .bannerImage {
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     background-position: center;
     display: flex;

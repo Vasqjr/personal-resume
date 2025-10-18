@@ -24,7 +24,7 @@ function App() {
       <div id="headerContent">
         <h1>Jonathan R. Vasquez</h1>
         <h2>
-          Front-End Engineer
+          Frontend Engineer
         </h2>
         <p className="elevatorParagraph">Hello, my name is Jonathan Vasquez, and I’m a Computer Science graduate and front-end engineer.
           I specialize in building custom web components and improving website accessibility with vanilla JavaScript.
@@ -36,7 +36,7 @@ function App() {
         <h2>
           About Me
         </h2>
-        <p className='smallIndent'>
+        <p>
           I’m happiest when I finish the day having accomplished something. Whether it’s refining this website, recording for my YouTube channel, practicing piano, or getting a gym session in, I like to end each day a little better than I started. Relaxation has its place, but steady progress—one day at a time—is what matters most to me.
         </p>
       </div>
