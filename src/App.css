@@ -3,19 +3,8 @@
   width: 100vw;
 }
 
-#aboutSection, #workExperienceSection, #skillSection {
+#aboutSection, #workExperienceSection, #skillSection, #contactInfoSection {
   width: 100vw;
-}
-
-#aboutSection h2, #aboutSection p {
-  padding: 0 2vw;
-}
-
-#workExperienceSection {
-  padding: 0 2vw;
-}
-
-#skillSection {
   padding: 0 2vw;
 }
 

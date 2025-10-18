@@ -15,7 +15,7 @@ function App() {
     { date: 'Spring 2022', title: 'Moving to Computer Science', description: 'Started my Computer Science program. Met my greatest study group and my current roommate, with whom I took many major classes with.', position: 'right', image: `${moesProjectImage}`, altText: 'Photo of College Group Studying at Moes'},
     { date: 'Spring 2023 - Summer 2024', title: 'Interning for Lincoln IT', description: 'Earned my first job in the field working as an intern for Lincoln IT, before being promoted to a Network Operations Center Engineer.', position: 'left', image: `${lincolnImage}`, altText: 'Photo of Lincoln IT logo'},
     { date: 'Spring 2024', title: 'Graduating from SUNY Farmingdale', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`, altText: 'Photo of College Graduation'},
-    { date: 'Fall 2024 - Present', title: 'Coding for New York State', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY', position: 'left', image: `${stateOfNewYorkImage}`, altText: 'Photo of New York State logo'}
+    { date: 'Fall 2024 - Present', title: 'Coding for New York State', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY.', position: 'left', image: `${stateOfNewYorkImage}`, altText: 'Photo of New York State logo'}
   ]
 
   return (
@@ -54,6 +54,11 @@ function App() {
           <li>Tools: Git, VS Code, IntelliJ, Teamsite, Chrome DevTools</li>
           <li>Soft Skills: Public speaking, technical communication, team collaboration</li>
         </ul>
+      </div>
+
+      <div id="contactInfoSection">
+        <h2>Contact Info</h2>
+        
       </div>
     </>
   )
