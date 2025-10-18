@@ -45,6 +45,16 @@ function App() {
         <h2>Education & Work Experience</h2>
         <Timeline items={timelineData} />
       </div>
+
+      <div id="skillSection">
+        <h2>Skills</h2>
+        <ul>
+          <li>Frontend: JavaScript (ES6+), Typescript, React, HTML5, CSS3 (Flexbox, Grid), Accessibility (WCAG 2.1), Kotlin </li>
+          <li>Backend: Java (Spring Boot), SQL, Python</li>
+          <li>Tools: Git, VS Code, IntelliJ, Teamsite, Chrome DevTools</li>
+          <li>Soft Skills: Public speaking, technical communication, team collaboration</li>
+        </ul>
+      </div>
     </>
   )
 }
