@@ -1,15 +1,14 @@
-#headerContent {
-  text-align: center;
-  width: 100vw;
-}
-
-#aboutSection, #workExperienceSection, #skillSection, #contactInfoSection {
-  width: 100vw;
+#root > *:not(.bannerImage) {
+  width: 100%;
   padding: 0 2vw;
 }
 
+#headerContent {
+  text-align: center;
+}
+
 .elevatorParagraph{
-  margin: 1rem;
+  padding: 0 1vw;
 }
 
 .square-container {

@@ -1,10 +1,11 @@
 .bannerImage {
-    width: 100vw;
+    max-width: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: block;
+    object-fit: contain;
     align-items: center;
-    top: 0;
-    left: 0;
     justify-content: center;
 }
+
