@@ -1,6 +1,6 @@
 #root > *:not(.bannerImage) {
   width: 100%;
-  padding: 0 2vw;
+  padding: 0 2.5rem;
 }
 
 #headerContent {
@@ -8,7 +8,7 @@
 }
 
 .elevatorParagraph{
-  padding: 0 1vw;
+  padding: 0 1.25rem;
 }
 
 .square-container {

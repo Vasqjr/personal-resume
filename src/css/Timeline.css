@@ -1,7 +1,7 @@
 .timeline-container {
   width: 100%;
   position: relative;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .timeline-line {
@@ -17,7 +17,7 @@
 .timeline-item {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   position: relative;
   padding: 0 2px;
 }
@@ -31,8 +31,8 @@
 }
 
 .timeline-dot {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 50%;
   background-color: #007bff;
   display: flex;
@@ -40,14 +40,7 @@
   align-items: center;
   color: white;
   z-index: 1;
-  margin: 0 20px; /* Adjust spacing */
-}
-
-.default-icon {
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  border-radius: 50%;
+  margin: 0 1.25rem; /* Adjust spacing */
 }
 
 .timeline-content {
