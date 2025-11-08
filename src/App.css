@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+#contactInfoSection {
+  position: relative;
+}
+
 .elevatorParagraph{
   padding: 0 1.25rem;
 }
@@ -48,10 +52,4 @@
 
 .aboutContent {
   float: right;
-}
-
-@media (max-width: 600px) {
-  img {
-    display: none;
-  }
 }

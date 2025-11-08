@@ -19,7 +19,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ date, title, description, p
                 <h3 className="timeline-title">{title}</h3>
                 <p className="timeline-description">{description}</p>
             </div>
-            <img className={'square-container'} src={`${image}`} title={`${altText}`}/>
+            <img className={'timeline-image square-container'} src={`${image}`} title={`${altText}`}/>
         </div>
     );
 };

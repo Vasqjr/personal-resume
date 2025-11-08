@@ -1,0 +1,26 @@
+.contact-section {
+    width: 100%;
+    position: relative;
+    padding: 1.25rem 0;
+}
+
+.contact-card {
+    margin-bottom: 2.5rem;
+    position: relative;
+    padding: 0 2px;
+
+    border: 5px solid black;
+    box-shadow: black 5px;
+}
+
+.contact-card .contact-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-card .contact-card-content .contact-icon {
+    width: 44px;
+    height: 44px;
+}

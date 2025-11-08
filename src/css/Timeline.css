@@ -67,3 +67,9 @@
   font-size: 0.95em;
   color: #495057;
 }
+
+@media (max-width: 600px) {
+  img.timeline-image.square-container {
+    display: none;
+  }
+}

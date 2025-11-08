@@ -6,7 +6,8 @@ import collegeGradImage from '/src/assets/images/college-grad.jpeg';
 import farmingdaleStateCollegeImage from '/src/assets/images/farmingdale-fountain.jpg';
 import moesProjectImage from '/src/assets/images/moesProject.jpeg'
 import lincolnImage from '/src/assets/images/lincolnIT.jpg';
-import stateOfNewYorkImage from '/src/assets/images/StateOfNY.png'
+import stateOfNewYorkImage from '/src/assets/images/StateOfNY.png';
+import ContactSection from './components/contactInfo.tsx';
 import './App.css';
 
 function App() {
@@ -16,6 +17,13 @@ function App() {
     { date: 'Spring 2023 - Summer 2024', title: 'Interning for Lincoln IT', description: 'Earned my first job in the field working as an intern for Lincoln IT, before being promoted to a Network Operations Center Engineer.', position: 'left', image: `${lincolnImage}`, altText: 'Photo of Lincoln IT logo'},
     { date: 'Spring 2024', title: 'Graduating from SUNY Farmingdale', description: 'Graduated from Farmingdale State College with a Bachelor of Science in Computer Science.', position: 'right', image: `${collegeGradImage}`, altText: 'Photo of College Graduation'},
     { date: 'Fall 2024 - Present', title: 'Coding for New York State', description: 'Moved to Albany, New York to take up a position as a Front-End Developer for the State of NY.', position: 'left', image: `${stateOfNewYorkImage}`, altText: 'Photo of New York State logo'}
+  ]
+
+  const contactInfoData = [
+    { image: '/src/assets/call.svg', title: '(516) 474-5591'},
+    { image: '/src/assets/mail.svg', title: 'jonathan.r.vasquez1@gmail.com'},
+    { image: '/src/assets/logo-github.svg', title: 'Github'}
+
   ]
 
   return (
@@ -58,7 +66,7 @@ function App() {
 
       <div id="contactInfoSection">
         <h2>Contact Info</h2>
-        
+        <ContactSection items={contactInfoData} />
       </div>
     </>
   )
