@@ -2,25 +2,42 @@
     width: 100%;
     position: relative;
     padding: 1.25rem 0;
+
+    display: flex;
 }
 
 .contact-card {
-    margin-bottom: 2.5rem;
+    margin: 0 2rem;
     position: relative;
-    padding: 0 2px;
 
-    border: 5px solid black;
-    box-shadow: black 5px;
+    flex: 1;
+
+    background-color: white;
 }
 
 .contact-card .contact-card-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
+
+    
 }
 
 .contact-card .contact-card-content .contact-icon {
     width: 44px;
     height: 44px;
+}
+
+.contact-title {
+    color: #343a40;
+
+    transition-duration: 0.5s;
+}
+
+.contact-card-content .contact-title {
+    display: none;
+}
+.contact-card-content:hover .contact-title {
+    display: block;
 }
