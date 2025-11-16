@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M424 80H88a56.06 56.06 0 00-56 56v240a56.06 56.06 0 0056 56h336a56.06 56.06 0 0056-56V136a56.06 56.06 0 00-56-56zm-14.18 92.63l-144 112a16 16 0 01-19.64 0l-144-112a16 16 0 1119.64-25.26L256 251.73l134.18-104.36a16 16 0 0119.64 25.26z"/></svg>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" width="42pt" height="33pt" viewBox="0 0 42 33" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0,33)scale(.075,.075)">
+    <path id="path1" d="M 25 -415 c -25 24 -25 27 -25 195 0 168 0 171 25 195 l 24 25 231 0 231 0 24 -25 c 25 -24 25 -27 25 -195 0 -168 0 -171 -25 -195 l -24 -25 -231 0 -231 0 -24 25 z m 175 126 l 80 62 81 -63 c 82 -63 114 -77 114 -51 0 14 -178 161 -195 161 -9 0 -187 -137 -195 -150 -9 -15 5 -32 21 -26 8 3 50 33 94 67 z " />
+  </g>
+</svg>

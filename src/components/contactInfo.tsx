@@ -8,9 +8,14 @@ interface contactCardProps {
 }
 
 const ContactCard: React.FC<contactCardProps> = ({ title, image, iconId }) => {
+    const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
+        console.log('Div Clicked');
+        
+    }
+
     return (
         <div className={"contact-card"}>
-            <div className="contact-card-content">
+            <div className="contact-card-content" onClick={handleClick}>
                 <img className="contact-icon" src={`${image}`} id={iconId} />
                 <h3 className="contact-title">{title}</h3>
             </div>
