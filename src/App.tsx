@@ -20,10 +20,9 @@ function App() {
   ]
 
   const contactInfoData = [
-    { image: '/src/assets/call.svg', title: '(516) 474-5591'},
-    { image: '/src/assets/mail.svg', title: 'jonathan.r.vasquez1@gmail.com'},
-    { image: '/src/assets/logo-github.svg', title: 'Github'}
-
+    { image: '/src/assets/call.svg', title: '(516) 474-5591', iconId: 'phoneIcon' },
+    { image: '/src/assets/mail.svg', title: 'jonathan.r.vasquez1@gmail.com', iconId: 'emailIcon' },
+    { image: '/src/assets/logo-github.svg', title: 'Github', iconId: 'githubIcon' }
   ]
 
   return (

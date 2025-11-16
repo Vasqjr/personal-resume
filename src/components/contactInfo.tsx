@@ -4,13 +4,14 @@ import '/src/css/contactInfo.css';
 interface contactCardProps {
     title: string;
     image: string;
+    iconId: string;
 }
 
-const ContactCard: React.FC<contactCardProps> = ({ title, image }) => {
+const ContactCard: React.FC<contactCardProps> = ({ title, image, iconId }) => {
     return (
         <div className={"contact-card"}>
             <div className="contact-card-content">
-                <img className="contact-icon" src={`${image}`}/>
+                <img className="contact-icon" src={`${image}`} id={iconId} />
                 <h3 className="contact-title">{title}</h3>
             </div>
         </div>

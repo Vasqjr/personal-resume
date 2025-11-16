@@ -25,19 +25,21 @@
 }
 
 .contact-card .contact-card-content .contact-icon {
-    width: 44px;
-    height: 44px;
+    width: 10%;
+    height: 10%;
+
+    min-width: 44px;
+    min-height: 44px;
 }
 
 .contact-title {
     color: #343a40;
-
-    transition-duration: 0.5s;
 }
 
-.contact-card-content .contact-title {
-    display: none;
-}
-.contact-card-content:hover .contact-title {
-    display: block;
+@media (max-width: 768px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
