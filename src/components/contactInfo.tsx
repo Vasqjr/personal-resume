@@ -8,9 +8,14 @@ interface contactCardProps {
 }
 
 const ContactCard: React.FC<contactCardProps> = ({ title, image, iconId }) => {
-    const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
-        console.log('Div Clicked');
+    const handleClick = (event: React.MouseEvent<HTMLImageElement>) => {
+        var contactIcon = document.getElementById(iconId) as HTMLImageElement;
+        contactIcon.classList.add("icon-clicked");
         
+        setTimeout(() => {
+            contactIcon.nextElementSibling?.setAttribute("style", "display: block;");
+            contactIcon.setAttribute("style", "display: none;");
+        }, 500);
     }
 
     return (
