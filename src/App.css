@@ -3,6 +3,11 @@
   padding: 0 2.5rem;
 }
 
+#wrapper {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
 #headerContent {
   text-align: center;
 }
